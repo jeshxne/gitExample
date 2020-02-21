@@ -17,17 +17,9 @@ public class TextTest {
 	  
   }
   @Test
-
   public void methodgit() {
 	  System.out.println("new method added now with GIT");
-
-	  
-  }
-  @Test
-
-  public void methodgitX() {
-	  System.out.println("new method added now with GIT with user X");
-
+	  System.out.println("user Y added new print on screen");
 	  
   }
 }
