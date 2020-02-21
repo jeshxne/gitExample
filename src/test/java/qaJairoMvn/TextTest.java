@@ -22,4 +22,9 @@ public class TextTest {
 	  System.out.println("user Y added new print on screen");
 	  
   }
+  @Test
+  public void methodgitX() {
+	  System.out.println("User X added new code to this test");
+	   
+  }
 }
