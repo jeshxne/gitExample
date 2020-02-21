@@ -16,4 +16,9 @@ public class TextTest {
 	  System.out.println("test 2 method 1 MAVEN");
 	  
   }
+  @Test
+  public void methoduserX() {
+	  System.out.println("new method with user X GitX folder");
+	  
+  }
 }
