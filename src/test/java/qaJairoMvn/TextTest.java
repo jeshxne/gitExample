@@ -16,4 +16,9 @@ public class TextTest {
 	  System.out.println("test 2 method 1 MAVEN");
 	  
   }
+  @Test
+  public void methodgit() {
+	  System.out.println("new method added now with GIT");
+	  
+  }
 }
