@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="91" started-at="2020-02-18T17:47:24 CST" finished-at="2020-02-18T17:47:24 CST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="91" started-at="2020-02-18T17:47:24 CST" finished-at="2020-02-18T17:47:24 CST">
+      <class name="qaJairoMvn.TextTwoTest">
+        <test-method status="PASS" signature="methodone()[pri:0, instance:qaJairoMvn.TextTwoTest@1753acfe]" name="methodone" duration-ms="0" started-at="2020-02-18T17:47:24 CST" finished-at="2020-02-18T17:47:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodone -->
+        <test-method status="PASS" signature="methodtwo()[pri:0, instance:qaJairoMvn.TextTwoTest@1753acfe]" name="methodtwo" duration-ms="0" started-at="2020-02-18T17:47:24 CST" finished-at="2020-02-18T17:47:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodtwo -->
+      </class> <!-- qaJairoMvn.TextTwoTest -->
+      <class name="qaJairoMvn.TextTest">
+        <test-method status="PASS" signature="methodone()[pri:0, instance:qaJairoMvn.TextTest@548a9f61]" name="methodone" duration-ms="12" started-at="2020-02-18T17:47:24 CST" finished-at="2020-02-18T17:47:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodone -->
+        <test-method status="PASS" signature="methodtwo()[pri:0, instance:qaJairoMvn.TextTest@548a9f61]" name="methodtwo" duration-ms="0" started-at="2020-02-18T17:47:24 CST" finished-at="2020-02-18T17:47:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodtwo -->
+      </class> <!-- qaJairoMvn.TextTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

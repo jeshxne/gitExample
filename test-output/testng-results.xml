@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72" started-at="2020-02-18T13:28:24 CST" finished-at="2020-02-18T13:28:24 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72" started-at="2020-02-18T13:28:24 CST" finished-at="2020-02-18T13:28:24 CST">
+      <class name="qaJairoMvn.TextTest">
+        <test-method status="PASS" signature="methodone()[pri:0, instance:qaJairoMvn.TextTest@527740a2]" name="methodone" duration-ms="14" started-at="2020-02-18T13:28:24 CST" finished-at="2020-02-18T13:28:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodone -->
+        <test-method status="PASS" signature="methodtwo()[pri:0, instance:qaJairoMvn.TextTest@527740a2]" name="methodtwo" duration-ms="1" started-at="2020-02-18T13:28:24 CST" finished-at="2020-02-18T13:28:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodtwo -->
+      </class> <!-- qaJairoMvn.TextTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
