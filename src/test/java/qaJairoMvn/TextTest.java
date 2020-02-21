@@ -17,8 +17,17 @@ public class TextTest {
 	  
   }
   @Test
-  public void methoduserX() {
-	  System.out.println("new method with user X GitX folder");
+
+  public void methodgit() {
+	  System.out.println("new method added now with GIT");
+
+	  
+  }
+  @Test
+
+  public void methodgitX() {
+	  System.out.println("new method added now with GIT with user X");
+
 	  
   }
 }

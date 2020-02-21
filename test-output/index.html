@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Windows\Temp\testng-eclipse--831570257\testng-customsuite.xml</span>
+                    <span>C:\Windows\Temp\testng-eclipse--1703694768\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="qaJairoMvn.TextTest" hash-for-method="methodgit">methodgit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="qaJairoMvn.TextTest" hash-for-method="methodone">methodone</a> <!-- method navigator-link -->
@@ -130,6 +135,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="methodgit">
+                  </a> <!-- methodgit -->
+                  <span class="method-name">methodgit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="methodone">
                   </a> <!-- methodone -->
                   <span class="method-name">methodone</span>
@@ -147,7 +159,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Windows\Temp\testng-eclipse--831570257\testng-customsuite.xml</span>
+            <span class="header-content">C:\Windows\Temp\testng-eclipse--1703694768\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,15 +208,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'methodone')
+data.setCell(0, 1, 'methodgit')
 data.setCell(0, 2, 'qaJairoMvn.TextTest')
-data.setCell(0, 3, 14);
+data.setCell(0, 3, 11);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'methodtwo')
 data.setCell(1, 2, 'qaJairoMvn.TextTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'methodone')
+data.setCell(2, 2, 'qaJairoMvn.TextTest')
+data.setCell(2, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -237,12 +253,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">qaJairoMvn.TextTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">methodone</span>
+                <span class="method-name">methodgit</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">methodone</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">methodtwo</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
