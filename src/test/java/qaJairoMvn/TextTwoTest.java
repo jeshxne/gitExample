@@ -16,4 +16,9 @@ public class TextTwoTest {
 	  System.out.println("test 2 method 1 MAVEN TESTNG");
 	  
   }
+  @Test
+  public void anothertest() {
+	  System.out.println("new mthod added by user X on textTwoTest");
+	  
+  }
 }
