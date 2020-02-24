@@ -21,4 +21,9 @@ public class TextTwoTest {
 	  System.out.println("new mthod added by user X on textTwoTest");
 	  
   }
+  @Test
+  public void anothertestt() {
+	  System.out.println("added by Y in develop branch");
+	  
+  }
 }
