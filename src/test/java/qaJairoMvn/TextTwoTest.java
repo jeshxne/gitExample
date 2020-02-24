@@ -28,4 +28,10 @@ public class TextTwoTest {
 	  System.out.println("added by X in master branch, final");
 	  
   }
+  @Test
+  public void newmethod() {
+	 
+	  System.out.println("added by Y 24 feb on dev branch");
+	  
+  }
 }
