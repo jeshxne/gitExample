@@ -32,7 +32,12 @@ public class TextTwoTest {
   public void newmethod() {
 	 
 	  System.out.println("added by Y 24 feb on dev branch");
+
 	  System.out.println("added by Y 11 march on dev branch-try to merge");
+
+	  System.out.println("added by Y 11 march on dev branch");
+	  System.out.println("added by X 11 march on dev branch-second");
+
 	  
   }
 }
